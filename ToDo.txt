@@ -1,0 +1,19 @@
+To-Do
+
+1. Fix main menu
+2. Add Mods
+3. SCP in the wildlife
+
+
+
+
+Fixed
+1. Uploaded
+2. Fixed SCP spawn rate
+3. Essentials
+
+
+
+Added Mods
+Timber
+Jabba Barrells

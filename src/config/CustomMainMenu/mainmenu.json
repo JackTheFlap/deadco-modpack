@@ -1,0 +1,164 @@
+{
+    "images":
+    {
+        "title":
+        {
+            "image" : "custommainmenu:textures/gui/minecraft.png",
+            "posX" : -137,
+            "posY" : 30,
+            "width" : 512,
+            "height" : 512,
+            "alignment" : "top_center"
+        },
+        
+		"didums":
+        {
+            "image" : "modpack:deadco-didums.png",
+            "posX" : 10,
+            "posY" : 0,
+            "width" : 175,
+            "height" : 800,
+            "alignment" : "top_right"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "posX" : 0,
+            "posY" : 0,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "menu:button.png",
+			"alignment" : "left_center",
+			"action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "posX" : 0,
+            "posY" : 25,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "menu:button.png",
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "fml.menu.mods",
+            "posX" : 0,
+            "posY" : 50,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "menu:button.png",
+			"alignment" : "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+
+        "options":
+        {
+			"text" : "menu.options",
+            "posX" : -200,
+            "posY" : 0,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "menu:button2.png",
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+		"language":
+        {
+			"text" : "options.language",
+            "posX" : -200,
+            "posY" : 25,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "menu:button2.png",
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+		
+		"quit":
+        {
+            "text" : "menu.quit",
+            "posX" : -200,
+            "posY" : 50,
+            "width" : 201,
+            "height" : 20,
+			"texture" : "menu:button2.png",
+			"alignment" : "right_center",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        }
+    },
+    
+    "labels":
+    {
+        "mojang":
+        {
+            "text" : "Copyright JackTheFlap.",
+            "posX" : 4,
+            "posY" : -12,
+            "color" : -1,
+            "alignment" : "bottom_left"
+        },
+		
+		"modcounts":
+        {
+            "text" : "#modsloaded# Mods loaded, #modsactive# Mods active.",
+            "posX" : -150,
+            "posY" : -18,
+            "color" : -1,
+            "alignment" : "bottom_right"
+        }
+    },
+    
+    "other":
+    {
+        "splash-text":
+        {
+            "posX" : 90,
+            "posY" : 70,
+            "color" : -256,
+            "alignment" : "top_center",
+            "texts" : "Karpador used SPLASH!"
+        },
+        
+        "panorama":
+        {
+            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "animate" : true,
+            "animationSpeed" : 1,
+            "blur" : true,
+            "gradient" : true
+        }
+    }
+}
