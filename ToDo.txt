@@ -4,16 +4,11 @@ To-Do
 2. Add Mods
 3. SCP in the wildlife
 
+Mods to be added:
+https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture
+Jabba Barrells
 
-
-
-Fixed
+Fixed:
 1. Uploaded
 2. Fixed SCP spawn rate
 3. Essentials
-
-
-
-Added Mods
-Timber
-Jabba Barrells
