@@ -11,14 +11,14 @@
             "alignment" : "top_center"
         },
         
-		"didums":
+        "edition":
         {
-            "image" : "modpack:deadco-didums.png",
-            "posX" : 10,
-            "posY" : 0,
-            "width" : 175,
-            "height" : 800,
-            "alignment" : "top_right"
+            "image" : "custommainmenu:textures/gui/edition.png",
+            "posX" : -49,
+            "posY" : 67,
+            "width" : 128,
+            "height" : 16,
+            "alignment" : "top_center"
         }
     },
     
@@ -27,13 +27,11 @@
         "singleplayer":
         {
             "text" : "menu.singleplayer",
-            "posX" : 0,
-            "posY" : 0,
-            "width" : 201,
+            "posX" : -100,
+            "posY" : 48,
+            "width" : 200,
             "height" : 20,
-			"texture" : "menu:button.png",
-			"alignment" : "left_center",
-			"action" : 
+            "action" : 
             {
                 "type" : "openGui",
                 "gui" : "singleplayer"
@@ -43,12 +41,10 @@
         "multiplayer":
         {
             "text" : "menu.multiplayer",
-            "posX" : 0,
-            "posY" : 25,
-            "width" : 201,
+            "posX" : -100,
+            "posY" : 72,
+            "width" : 200,
             "height" : 20,
-			"texture" : "menu:button.png",
-			"alignment" : "left_center",
             "action" : 
             {
                 "type" : "openGui",
@@ -59,12 +55,10 @@
         "mods":
         {
             "text" : "fml.menu.mods",
-            "posX" : 0,
-            "posY" : 50,
-            "width" : 201,
+            "posX" : -100,
+            "posY" : 96,
+            "width" : 200,
             "height" : 20,
-			"texture" : "menu:button.png",
-			"alignment" : "left_center",
             "action" : 
             {
                 "type" : "openGui",
@@ -72,50 +66,58 @@
             }
         },
 
+        "joinServer":
+        {
+            "text" : "Connect to DeadCo",
+            "posX" : -100,
+            "posY" : 120,
+            "width" : 200,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "connectToServer",
+                "ip" : "deadco.nitrous.it"
+            }
+        },
+            
         "options":
         {
-			"text" : "menu.options",
-            "posX" : -200,
-            "posY" : 0,
-            "width" : 201,
+            "text" : "menu.options",
+            "posX" : -100,
+            "posY" : 152,
+            "width" : 98,
             "height" : 20,
-			"texture" : "menu:button2.png",
-			"alignment" : "right_center",
             "action" : 
             {
                 "type" : "openGui",
                 "gui" : "options"
             }
         },
-		
-		"language":
-        {
-			"text" : "options.language",
-            "posX" : -200,
-            "posY" : 25,
-            "width" : 201,
-            "height" : 20,
-			"texture" : "menu:button2.png",
-			"alignment" : "right_center",
-            "action" : 
-            {
-                "type" : "openGui",
-                "gui" : "options"
-            }
-        },
-		
-		"quit":
+        
+        "quit":
         {
             "text" : "menu.quit",
-            "posX" : -200,
-            "posY" : 50,
-            "width" : 201,
+            "posX" : 2,
+            "posY" : 152,
+            "width" : 98,
             "height" : 20,
-			"texture" : "menu:button2.png",
-			"alignment" : "right_center",
             "action" : 
             {
                 "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "",
+            "posX" : -124,
+            "posY" : 152,
+            "width" : 20,
+            "height" : 20,
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
             }
         }
     },
@@ -124,20 +126,16 @@
     {
         "mojang":
         {
-            "text" : "Copyright JackTheFlap.",
-            "posX" : 4,
-            "posY" : -12,
+            "text" : "Copyright DeadCo Team",
+            "posX" : -117,
+            "posY" : -10,
             "color" : -1,
-            "alignment" : "bottom_left"
-        },
-		
-		"modcounts":
-        {
-            "text" : "#modsloaded# Mods loaded, #modsactive# Mods active.",
-            "posX" : -150,
-            "posY" : -18,
-            "color" : -1,
-            "alignment" : "bottom_right"
+            "alignment" : "bottom_right",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "credits"
+            }
         }
     },
     
@@ -149,16 +147,17 @@
             "posY" : 70,
             "color" : -256,
             "alignment" : "top_center",
-            "texts" : "Karpador used SPLASH!"
+            "texts" : "file:modpack:splash.txt"
         },
         
         "panorama":
         {
-            "images" : "minecraft:textures/gui/title/background/panorama_%c.png",
+            "images" : "modpack:panorama/panorama_%c.png",
             "animate" : true,
-            "animationSpeed" : 1,
-            "blur" : true,
-            "gradient" : true
+            "animationSpeed" : 3,
+            "blur" : false,
+            "gradient" : false,
+			"synced" : true
         }
     }
 }

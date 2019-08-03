@@ -1,12 +1,11 @@
 To-Do
 
-1. Fix main menu
+1. Fix main menu (Pretty pictures)
 2. Add Mods
 3. SCP in the wildlife
 
 Mods to be added:
-https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture
-Jabba Barrells
+https://www.curseforge.com/minecraft/mc-mods/mystical-agriculture 
 
 Fixed:
 1. Uploaded

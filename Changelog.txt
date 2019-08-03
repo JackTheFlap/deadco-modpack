@@ -1,0 +1,16 @@
+v0.1
+	Original release
+
+v0.1.1
+	Fixed wrong Forge version (Flap is smart...)
+Server:
+	Fixed SCP Facility Spawn Rate
+	Enabled SCP Containment Cells
+
+v1.3 (v0.2)
+	Changed Main Menu
+	Added Mystical Agriculture
+	Remove Magical Crops
+	Version bump to match Technic
+Server:
+	Enabled Wild SCP's
